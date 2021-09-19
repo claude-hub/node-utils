@@ -1,0 +1,28 @@
+{
+  "name": "node-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --harmony index.js",
+    "test": "jest --watchAll",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claude-hub/node-utils.git"
+  },
+  "author": "Claude",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claude-hub/node-utils/issues"
+  },
+  "homepage": "https://github.com/claude-hub/node-utils#readme",
+  "dependencies": {
+    "fs-extra": "^10.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.2.0",
+    "nodemon": "^2.0.12"
+  }
+}
