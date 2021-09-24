@@ -3,8 +3,9 @@ const join = require('path').join;
 
 /**
  * 获取指定路径下的所有文件，包含子文件
- * @param {path} path 路径
+ * @param {string} path 路径
  * @param {[]} excludeFolder 排除的文件夹
+ * @returns 文件数组
  */
 const getPathFiles = (path, excludeFolder) => {
   const jsonFiles = [];
